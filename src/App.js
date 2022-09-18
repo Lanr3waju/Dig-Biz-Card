@@ -6,10 +6,10 @@ import Interests from "./components/Interests"
 export default function App() {
     return (
         <>
-        <About />
-        <Footer />
         <Info />
+        <About />
         <Interests />
+        <Footer />
         </>
     )
 }
