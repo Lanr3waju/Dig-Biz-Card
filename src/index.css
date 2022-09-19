@@ -59,6 +59,18 @@ main {
     padding: 10px 34px;
 }
 
+.info-email-btn,
+.info-linkedin-btn {
+    cursor: pointer;
+    transition: all 200ms ease-in-out;
+}
+
+.info-email-btn:hover,
+.info-linkedin-btn:hover {
+    transform: translateY(3px);
+    transition: all 500ms ease-in-out;
+}
+
 .info-email-btn {
     border: none;
     display: flex;
@@ -117,4 +129,14 @@ main {
     padding: 10px 30px;
     background: #161619;
     border-radius: 0px 0px 10px 10px;
+}
+
+.footer > a {
+    cursor: pointer;
+    transition: all 500ms ease-in-out;
+}
+
+.footer > a:hover {
+    transform: translateY(-3px);
+    transition: all 500ms ease-in-out;
 }
