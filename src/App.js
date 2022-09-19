@@ -5,11 +5,11 @@ import Interests from "./components/Interests"
 
 export default function App() {
     return (
-        <>
+        <main>
         <Info />
         <About />
         <Interests />
         <Footer />
-        </>
+        </main>
     )
 }

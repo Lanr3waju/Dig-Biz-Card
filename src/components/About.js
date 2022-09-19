@@ -1,7 +1,7 @@
 export default function About() {
     return (
         <section className="about">
-            <h3>About</h3>
+            <h4>About</h4>
             <p>
             I am a frontend developer with a particular interest in making things simple
              and automating daily tasks. 
